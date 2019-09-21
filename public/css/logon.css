@@ -1,0 +1,118 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+}
+
+.content{
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+background: #EEEEEE;
+display:block;
+}
+.content>.head{
+	padding:0 10px ;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #FAFAFA;
+	border-bottom:2px solid #E8E8E8 ;
+}
+.head>span{
+	font-size: 30px;
+	color: red;
+	float: left;
+}
+.head h3{
+	font-family: "微软雅黑";
+	text-align: center;
+	color: #262626;
+	font-size: 20px;
+}
+/*登录*/
+.inform{
+	width: 100%;
+	height: 150px;
+	/*background: goldenrod;*/
+}
+.inform input{
+	padding-top: 20px;
+	border:1px solid #E8E8E8;
+	width: 100%;
+	height: 50px;
+}
+/*.bg{
+	width: 100%;
+	height: 100%;
+	background: #EEEEEE;
+}*/
+#denglu{
+	width: 90%;
+	height: 50px;
+	background: #F41E33;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 5%;
+	border: none;
+}
+.denglu1{
+	width: 100%;
+	height: 40px;
+	/*background: yellowgreen;*/
+	line-height: 40px;
+	padding: 0 20px;
+}
+.denglu1 span:first-child{
+	float: left;
+}
+.denglu1 span:last-child{
+	float:right;
+}
+.other{
+	margin-top: 30px;
+}
+.other p{
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	color: #c9c9c9;
+}
+.other .way{
+	width: 100%;
+	height: 40px;
+	/*background: yellow;*/
+	padding-left:35%;
+}
+.other .way a{
+	display: block;
+	width: 40%;
+	
+	float: left;
+}
+.other .way a img{
+	width: 50px;
+	height:50px;
+}
+.end{
+	margin-top: 70px;
+	padding: 0 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.end span{
+	font-size: 50px;
+	color: #c9c9c9;
+	font-size: 10px;
+	
+}
+.end p{
+	color: #c9c9c9;
+}
+
+

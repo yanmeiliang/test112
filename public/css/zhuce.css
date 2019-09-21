@@ -1,0 +1,175 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: black;
+	font-size: 10px;
+	list-style: none;
+}
+
+.content{
+	width: 100%;
+	margin: 0 auto;
+	height: 100vh;
+background: #EEEEEE;
+display:block;
+}
+.content>.head{
+	padding:0 10px;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #FAFAFA;
+	border-bottom:2px solid #E8E8E8 ;
+}
+.head a{
+	display:block;
+	position: fixed;
+	top:0px;
+	left:-20px;
+	width: 10px;
+	height: 40px;
+	padding: 0 40px;
+	text-align: center;
+	line-height: 40px;
+	/*background:bisque;*/
+}
+.head a>span{
+	color: red;
+	font-size:30px;
+}
+.head h3{
+	font-family: "微软雅黑";
+	color: #262626;
+	font-size: 20px;
+	width:100%;
+	position: absolute;
+	top:0px;
+	text-align: center;
+}
+.head>span{
+	padding-right:7px ;
+	float: right;
+	color:#ccc;
+	position: fixed;
+	top:-1%;
+	right: 4px;
+	font-size: 30px;
+}
+/*登录*/
+.inform{
+	width: 100%;
+	height: 150px;
+	/*background: goldenrod;*/
+}
+.inform input{
+	border:1px solid #E8E8E8;
+	width: 100%;
+	height: 50px;
+	padding-left:30px ;
+}
+#yanzheng{
+	display: inline-block;
+	width: 79px;
+	height: 33px;
+	position:absolute;
+	right:2%;
+	top:125px;
+	
+}
+.btn{
+	display:block;
+	width: 20%;
+	height: 30px;
+	background: red;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	position:absolute;
+	right:2%;
+	top:190px;
+}
+.agree{
+	width: 100%;
+	height: 60px;
+	margin-top: 90px;
+	padding: 30px;
+	/*background: gold;*/
+}
+.agree .iconfont{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	border-radius: 40px;
+	background:red;
+}
+.eye{
+	display: block;
+	width: 45px;
+	height: 20px;
+	padding: 0 20px;
+	border-radius:10px;
+	line-height: 20px;
+	background: #DDDDDD;
+	position: absolute;
+	top:260px;
+	right:10px;
+}
+.eye i{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background: white; 
+	position: absolute;
+	top:0px;
+	left:0px;
+	/*left:25px;*/
+}
+#denglu{
+	width: 90%;
+	height: 50px;
+	background: #F41E33;
+	border-radius: 20px;
+	color: white;
+	font-size: 20px;
+	margin-left: 5%;
+	border: none;
+	margin-top: 20px;
+}
+#have{
+	display: block;
+	padding: 10px;
+	float:right;
+}
+/*下拉*/
+.xiala{
+	width: 30%;
+	height: 150px;
+	background: rgba(0,0,0,0.9);
+	position: absolute;
+	top:7%;
+	right:6px;
+	display: none;
+}
+.xiala ul{
+	width: 100%;
+	height: 150px;
+}
+.xiala ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.xiala ul span{
+	font-size: 20px;
+	color:#626262;
+}
+
+
+

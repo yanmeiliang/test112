@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理系统</title>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" border="1">
+    <thead>
+    <tr>
+        <th>账户</th>
+        <th>密码</th>
+        <th>修改</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{each list}}
+    <tr>
+        <td>{{$value.name}}</td>
+        <td>{{$value.pwd}}</td>
+        <td><a href="#">删除</a>| <a href="#">修改</a></td>
+    </tr>
+    {{/each}}
+    </tbody>
+</table>
+</body>
+</html>

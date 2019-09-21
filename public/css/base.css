@@ -1,0 +1,48 @@
+/*reset css重置样式*/
+*,::before,::after{
+	margin: 0px;
+	padding: 0px;
+	/*只针对移动端*/
+	box-sizing: border-box;
+	/*兼容主流移动端浏览器兼容*/
+	-webkit-box-sizing: border-box;
+	/*点击高亮效果  浏览器默认点击颜色*/
+	-webkit-tap-highlight-color:transparent;
+	
+}
+
+body{
+	font-size: 14px;
+	color:#333;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+input,textarea{
+	outline: none;
+	border:none;
+	resize: none;
+	/*清除移动端输入的样式*/
+-webkit-appearance:none;
+	
+}
+/*common css公用样式*/
+.f_left{
+	float: left;
+}
+.f_right{
+	float:right;
+}
+.clearfix::before,.clearfix::after{
+	content: '';
+	display: block;
+	height: 0;
+	line-height: 0;
+	/*看不见*/
+	visibility: hidden;
+	clear: both;
+}

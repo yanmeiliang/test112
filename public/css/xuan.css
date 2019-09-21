@@ -1,0 +1,128 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	background: #eee;
+	list-style: none;
+}
+.clearfix:after{/*伪元素是行内元素 正常浏览器清除浮动方法*/
+        content: "";
+        display: block;
+        height: 0;
+        clear:both;
+        visibility: hidden;
+    }
+    .clearfix{
+        *zoom: 1;/*ie6清除浮动的方式 *号只有IE6-IE7执行，其他浏览器不执行*/
+}
+/*头部------此容器1为伸缩项*/
+.head1{
+	overflow: hidden;
+}
+ .head{
+ 	
+	width: 100%;
+	height: 44.88px;
+	background:#f41e33;
+	/*伸缩布局*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: fixed;
+	top:0px;
+	left:0px;
+	z-index: 1000;
+	/*margin-bottom: 50px;*/
+}
+.head::before{
+	content: " ";
+	display:block;
+	clear: both;
+	visibility: hidden;
+}
+
+.head_left{
+display: inline-block;
+ width: 110px;  
+ height: 30px;
+ background: url(../img/logo.png) no-repeat;
+margin-top: 10px;
+ background-size:92.47px 30px;
+ float:left;
+ 
+ 
+}
+.head_mid{
+	height: 35px;
+	width: 200px;
+	margin-top: 5px;
+	border: 1px solid #ce1d38;
+	background:#ce1d38;
+	border-radius: 3px;
+	
+	
+}
+.head_right{
+	margin-left: 30px;
+	height: 44.88px;
+	width: 110px;
+	font-size: 30px;
+	color: #FFFFFF;
+	/*background: yellow;*/
+	background:#f41e33;
+	
+}
+/*轮播图1·*/
+.lunbo{
+	margin-top: 44.88px;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	
+}
+.lunbo>.lunbo1{
+	width: 1000%;
+	height:100%;
+	overflow:hidden;
+}
+.lunbo>.lunbo1>li{
+float: left;
+width: 10%;
+}
+.lunbo>.lunbo1>li>a{
+	display: inline-block;
+	width: 100%;
+	
+	
+}
+.lunbo>.lunbo1>li>a>img{
+	width: 100%;
+}
+/*轮播2*/
+.lunbo2{
+	width: 100%;
+	height: 20px;
+	background: transparent;
+	/*background: black;*/
+	/*padding: 100%;*/
+	line-height: 20px;
+	position: absolute;
+	/*position: fixed;*/
+	left:34%;
+	bottom: 0%;
+}
+.lunbo2 li{
+	margin-left: 5px;
+	float:left;
+	width:3%;
+	height:50%;
+	border-radius: 50%;
+	/*margin-left:100% ;*/
+	background: white;
+	
+}
+
+
+

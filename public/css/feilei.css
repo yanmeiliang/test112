@@ -1,0 +1,104 @@
+.sum{
+	width:100%;
+	height:100%vh;
+	margin: 0 auto;
+	background:#EEEEEE;
+}
+/*头部搜索*/
+.head{
+	width: 100%;
+	height: 40px;
+	margin: 0 auto;
+	padding: 5px 40px;
+	background:#FAFAFA;
+}
+.head input{
+padding-left: 30px;
+	width: 100%;
+	height: 30px;
+
+}
+
+.head #span1{
+/*	display: block;*/
+	position: absolute;
+	top:7px;
+	left:5px;
+	font-size:30px;
+	color: red;
+}
+
+#span2{
+	position: absolute;
+	top:13px;
+	left: 12%;
+}
+.head #sea{
+	position: absolute;
+	top:10px;
+	right:5px;
+	width: 30px;
+	height: 40px;
+	float: right;
+}
+/*下面内容*/
+.lei{
+	width: 100%;
+	height:20px;
+	padding: 20px;
+	line-height:10px;
+	/*background: greenyellow;*/
+}
+.content1 ul{
+	width: 100%;
+	height:100px;
+	/*background:goldenrod;*/
+
+}
+.content1 ul li{
+	float: left;
+	width: 30%;
+	height:50px;
+ margin:5px ;
+ text-align: center;
+ line-height: 50px;
+	background: white;
+	
+	
+}
+
+/*结束*/
+.end{
+	width: 100%;
+	height: 80px;
+	background:#F6F6F6;
+	display: flex;
+	justify-content:space-around;
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+}
+.end a{
+	display: block;
+	height: 100%;
+	width:15%;
+	/*border: 1px solid #000;*/
+	/*background: burlywood;*/
+	
+	
+}
+.end a span{
+	display: inline-block;
+	width: 100%;
+	height: 60%;
+	/*background: yellow;*/
+	text-align: center;
+	line-height:100%;
+}
+.end a p{
+	rgba(0,0,0,0);
+	text-align: center;
+	line-height:100%;
+	font-size: 10px;
+}
+

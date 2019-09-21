@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<title></title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/jd_cart.css">
+<link rel="stylesheet" href="css/iconfont.css">
+<style type="text/css">
+	.box1{
+		margin-top:2rem;
+	}
+	.end{
+	width: 100%;
+	height: 80px;
+	background:#F6F6F6;
+	display: flex;
+	justify-content:space-around;
+	padding: 10px;
+	position: fixed;
+	bottom: 0px;
+}
+.end a{
+	display: block;
+	height: 100%;
+	width:15%;
+	/*border: 1px solid #000;*/
+	/*background: burlywood;*/
+	
+	
+}
+.end a span{
+	display: inline-block;
+	width: 100%;
+	height: 60%;
+	/*background: yellow;*/
+	text-align: center;
+	line-height:100%;
+}
+.end a p{
+	rgba(0,0,0,0);
+	text-align: center;
+	line-height:100%;
+	font-size: 10px;
+}
+.pay{
+	width: 100%;
+	height: 5rem;
+	background:white;
+	position: fixed;
+	bottom:5rem;
+	left: 0rem;
+	padding:1rem;
+	box-sizing: border-box;
+}
+.pay .left1{
+	width: 30%;
+	height:3rem;
+	/*background: pink;*/
+	float: left;
+	line-height: 3rem;
+	color: #ccc;
+}
+.pay .money{
+	width: 50%;
+	height: 3rem;
+	/*background: pink;*/
+	float: right;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	line-height: 3rem;
+}
+
+.pay .money input{
+	float: right;	
+	width: 5rem;
+	height: 2rem;
+	background:red;
+	color: white;
+	
+}
+</style>
+</head>
+<body>
+<!--顶部通栏-->
+    <header class="jd_topBar" style="background: #f41e33;">
+        <a href="wenxuan.html" class="icon_back"></a>
+        <h3>购物车</h3>
+        <a href="#"class="icon_menu"></a>
+    </header>
+
+
+<!--安全提示-->
+<div class="safety-tip">
+   <p class="fadeInDown animated">您正在安全购物环境中，请放心购物</p>
+</div>
+
+<!--店铺-->
+ <div class="jd_shop">
+     <div class="jd_shop_tit">
+        <div class="check_box">
+            <a href="#" class="jd_check_box"></a>
+        </div>
+        <div class="shop_info">
+            <div class="jd_logo f_left">
+                <img src="images/buy-logo.png" alt="">
+                <span>文轩自营</span>
+            </div>
+            <div class="f_right tip m_r10">
+                您享受满79元免运费服务
+            </div>
+
+        </div>
+    </div>
+     <div class="jd_shop_con">
+         <div class="product">
+             <div class="check_box">
+                 <a href="#" class="jd_check_box box1"></a>
+             </div>
+             <div class="shop_info clearfix">
+                 <a href="#" class="img_box f_left"><img src="img/book1.jpg" alt=""></a>
+                 <div class="info_box">
+                     <a class="p_name" href="#">神雕侠侣 </a>
+                     <p class="p_price">&yen;400.00</p>
+                     <div class="p_opition">
+                        <div class="change_num f_left">
+                            <span>-</span>
+                            <input type="tel" value="0">
+                            <span>+</span>
+                        </div>
+                        <div class="delete_box f_right">
+                            <span class="delete_up"></span>
+                            <span class="delete_down"></span>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="product">
+             <div class="check_box">
+                 <a href="#" class="jd_check_box box1" checked></a>
+             </div>
+             <div class="shop_info clearfix">
+                 <a href="#" class="img_box f_left"><img src="img/book11.jpg" alt=""></a>
+                 <div class="info_box">
+                     <a class="p_name" href="#">贵州寻宝记 </a>
+                     <p class="p_price">&yen;100.00</p>
+                     <div class="p_opition">
+                        <div class="change_num f_left">
+                            <span>-</span>
+                            <input type="tel" value="0">
+                            <span>+</span>
+                        </div>
+                        <div class="delete_box f_right">
+                            <span class="delete_up"></span>
+                            <span class="delete_down"></span>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="product">
+             <div class="check_box">
+                 <a href="#" class="jd_check_box box1" checked></a>
+             </div>
+             <div class="shop_info clearfix">
+                 <a href="#" class="img_box f_left"><img src="img/book3.jpg" alt=""></a>
+                 <div class="info_box">
+                     <a class="p_name" href="#">有故事的汉字 </a>
+                     <p class="p_price">&yen;40.00</p>
+                     <div class="p_opition">
+                        <div class="change_num f_left">
+                            <span>-</span>
+                            <input type="tel" value="0">
+                            <span>+</span>
+                        </div>
+                        <div class="delete_box f_right">
+                            <span class="delete_up"></span>
+                            <span class="delete_down"></span>
+                        </div>
+                     </div>
+                 </div>
+             </div>
+             </div>
+         <div class="product">
+                 <div class="check_box">
+                     <a href="#" class="jd_check_box box1" checked></a>
+                 </div>
+                 <div class="shop_info clearfix">
+                     <a href="#" class="img_box f_left"><img src="img/book12.jpg""></a>
+                     <div class="info_box">
+                         <a class="p_name" href="#">128招玩转抖音 </a>
+                         <p class="p_price">&yen;60.00</p>
+                         <div class="p_opition">
+                            <div class="change_num f_left">
+                                <span>-</span>
+                                <input type="tel" value="0">
+                                <span>+</span>
+                            </div>
+                            <div class="delete_box f_right">
+                                <span class="delete_up"></span>
+                                <span class="delete_down"></span>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         <div class="product">
+                 <div class="check_box">
+                     <a href="#" class="jd_check_box box1" checked></a>
+                 </div>
+                 <div class="shop_info clearfix">
+                     <a href="#" class="img_box f_left"><img src="img/book2.jpg" alt=""></a>
+                     <div class="info_box">
+                         <a class="p_name" href="#">读城记</a>
+                         <p class="p_price">&yen;69.70</p>
+                         <div class="p_opition">
+                            <div class="change_num f_left">
+                                <span>-</span>
+                                <input type="tel" value="0">
+                                <span>+</span>
+                            </div>
+                            <div class="delete_box f_right">
+                                <span class="delete_up"></span>
+                                <span class="delete_down"></span>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+                <div class="product" style="margin-bottom: 10rem;">
+                 <div class="check_box">
+                     <a href="#" class="jd_check_box box1" checked></a>
+                 </div>
+                 <div class="shop_info clearfix">
+                     <a href="#" class="img_box f_left"><img src="img/book13.jpg" alt=""></a>
+                     <div class="info_box">
+                         <a class="p_name" href="#">一个人的长征</a>
+                         <p class="p_price">&yen;123.70</p>
+                         <div class="p_opition">
+                            <div class="change_num f_left">
+                                <span>-</span>
+                                <input type="tel" value="6">
+                                <span>+</span>
+                            </div>
+                            <div class="delete_box f_right">
+                                <span class="delete_up"></span>
+                                <span class="delete_down"></span>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+     </div>
+     
+ </div>
+<div class="jd_win">
+    <div class="jd_win_box">
+        <div class="jd_win_tit">你确定删除该商品吗？</div>
+        <div class="jd_btn clearfix">
+            <a href="#" class="cancle f_left">取消</a>
+            <a href="#" class="submit f_right">确定</a>
+        </div>
+    </div>
+</div>
+<!--付款-->
+<div class="pay">
+	<div class="left1">
+		<!--<input type="checkbox" />-->
+		<span>全选</span>
+	</div>
+    <div class="money">
+    	<span>合计：<span>￥0</span></span>
+    	<input type="button" name="" id="" value="立即付款" />
+    </div>     
+</div>
+
+
+<div class="end">
+	<a href="wenxuan.html">
+		<span class="iconfont icon-shouye "></span>
+		<p >首页</p>
+	</a>
+	<a href="feiLei.html">
+		<span class="iconfont icon-chazhao change"></span>
+		<p class="change">分类搜索</p>
+	</a>
+	<a href="">
+		<span class="iconfont icon-gouwu"></span>
+		<p>购物车</p>
+	</a>
+	<a href="my.html">
+		<span class="iconfont icon-xihuan"></span>
+		<p>我的收藏</p>
+	</a>
+</div>
+<script src='js/jquery.js'></script>
+<script src="js/cartjs.js"></script>
+<script type="text/javascript">
+	$(function(){
+		var jian=$('.change_num').children('span:first-child');
+        var add=$('.change_num').children('span:last-child');
+//     console.log(input1)
+ jian.click(function(){
+ var value=$(this).next().val();
+ 
+ if(value>0)
+ {
+ 	value--;
+     $(this).next().val(value);
+ }
+ });
+  add.click(function(){
+ var value=$(this).prev().val();
+ 
+ 
+ 	value++
+     $(this).prev().val(value);
+ 
+ });
+ 
+	})
+</script>
+</body>
+</html>

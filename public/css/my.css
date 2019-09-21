@@ -1,0 +1,61 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-align: none;
+	box-sizing: border-box;
+	list-style: none;
+}
+/*我的头部*/
+.cainton{
+	width: 100%;
+	height: 100vh;
+	min-width:320px;
+	max-width: 640px;
+	background: gray url(../img/bg.jpg) no-repeat;
+	
+	
+	margin: 0 auto;
+}
+h3{
+	text-align: center;
+	color: burlywood;
+	padding-top:30px ;
+	/*background:palegreen;*/
+}
+.head{
+	padding: 30px;
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+.head img{
+	border-radius: 40px;
+	margin-top:10px;
+	width: 80px;
+	height: 80px;
+	
+}
+.head input{
+	position: relative;
+	left:10px;
+	top:60px;
+}
+.head span{
+	position: absolute;
+  left:40%;
+  top:60px
+}
+ul{
+	width:100%;
+	height:408px;
+}
+ul>li{
+	width: 100%;
+	height: 100px;
+	margin: 2px 0;
+	
+}
+a{
+	color: white;
+	font-size: 20px;
+}
